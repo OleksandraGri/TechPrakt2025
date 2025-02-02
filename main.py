@@ -18,7 +18,7 @@ print(len(results_list))
 for x in results_list:
     if x % 2 == 0 and x != 0:
         print(x)
-
+        
 results_list[1],results_list[4] = results_list[4],results_list[1]
 print(results_list)
 
