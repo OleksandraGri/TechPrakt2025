@@ -6,10 +6,10 @@ d = float(input("d:"))
 sum_result = a + b
 sub = a - b
 mult = a * b
-div = a / b if b != 0 else
+div = a / b if b != 0 else "Помилка: ділення на нуль"
 ed = c ** d
-id = c // d if d != 0 else
-rd = c % d if d != 0 else
+id = c // d if d != 0 else "Помилка: ділення на нуль"
+rd = c % d if d != 0 else "Помилка: ділення на нуль"
 
 results_list = [sum_result, sub, mult, div, ed, id, rd]
 print(results_list)
