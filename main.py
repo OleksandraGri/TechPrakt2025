@@ -15,11 +15,7 @@ list = [sum, sub, mult, div, ed, id, rd]
 print(list)
 print(len(list))
 
-for x in list:
-    if x % 2 == 0 and x != 0:
-        print(x)
-
-for x in range(len(list)):
+for x in results_list:
     if x % 2 == 0 and x != 0:
         print(x)
 
